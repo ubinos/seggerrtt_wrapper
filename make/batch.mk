@@ -62,50 +62,50 @@
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_seggerrtt_nrf52dk_baremetal
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_nrf52dk_baremetal_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_seggerrtt_nrf52dk
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_nrf52dk_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=ubik_tester_seggerrtt_nrf52dk
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=ubik_tester_nrf52dk_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=cli_tester_seggerrtt_nrf52dk
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=cli_tester_nrf52dk_seggerrtt
 	@echo ""
 	@echo ""
 
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_seggerrtt_nrf52840dk_baremetal
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_nrf52840dk_baremetal_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_seggerrtt_nrf52840dk
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_nrf52840dk_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=ubik_tester_seggerrtt_nrf52840dk
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=ubik_tester_nrf52840dk_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=cli_tester_seggerrtt_nrf52840dk
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=cli_tester_nrf52840dk_seggerrtt
 	@echo ""
 	@echo ""
 
