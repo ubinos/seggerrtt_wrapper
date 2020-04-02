@@ -1,5 +1,7 @@
 set(INCLUDE__SEGGERRTT TRUE)
 
+set_cache_default(SEGGERRTT__BASE_DIR "${PROJECT_LIBRARY_DIR}/seggerrtt" STRING "seggerrtt project base dir")
+
 set_cache_default(SEGGERRTT__DTTY_ENABLE FALSE BOOL "")
 
 set_cache_default(SEGGERRTT__SEGGER_RTT_MAX_NUM_UP_BUFFERS 3 STRING "")
@@ -9,7 +11,7 @@ set_cache_default(SEGGERRTT__BUFFER_SIZE_DOWN 16 STRING "")
 
 ####
 
-get_filename_component(_tmp_source_dir "${PROJECT_LIBRARY_DIR}/seggerrtt/" ABSOLUTE)
+get_filename_component(_tmp_source_dir "${SEGGERRTT__BASE_DIR}" ABSOLUTE)
 
 include_directories(${_tmp_source_dir})
 
