@@ -1,6 +1,6 @@
 if(INCLUDE__SEGGERRTT)
 
-get_filename_component(_tmp_source_dir "${PROJECT_LIBRARY_DIR}/seggerrtt/" ABSOLUTE)
+get_filename_component(_tmp_source_dir "${SEGGERRTT__BASE_DIR}/" ABSOLUTE)
 
 include_directories(${_tmp_source_dir}/RTT)
 
