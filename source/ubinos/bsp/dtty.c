@@ -20,9 +20,11 @@
 
 extern int _g_bsp_dtty_init;
 extern int _g_bsp_dtty_echo;
+extern int _g_bsp_dtty_autocr;
 
 int dtty_init(void) {
     _g_bsp_dtty_echo = 0;
+	_g_bsp_dtty_autocr = 0;
 
     _g_bsp_dtty_init = 1;
 
