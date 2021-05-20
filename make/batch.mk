@@ -86,6 +86,12 @@
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_ardnano33ble_baremetal_seggerrtt
+	@echo ""
+	@echo ""
+	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+	@echo ""
+	@echo ""
 	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_stm3221geval_baremetal_seggerrtt
 	@echo ""
 	@echo ""
@@ -95,6 +101,7 @@
 	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_stm32footpad_baremetal_seggerrtt
 	@echo ""
 	@echo ""
+
 
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
@@ -112,6 +119,12 @@
 	@echo ""
 	@echo ""
 	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_nrf52840dongle_seggerrtt
+	@echo ""
+	@echo ""
+	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+	@echo ""
+	@echo ""
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_ardnano33ble_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
@@ -149,6 +162,12 @@
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=ubik_tester_ardnano33ble_seggerrtt
+	@echo ""
+	@echo ""
+	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+	@echo ""
+	@echo ""
 	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=ubik_tester_stm3221geval_seggerrtt
 	@echo ""
 	@echo ""
@@ -158,6 +177,7 @@
 	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=ubik_tester_stm32footpad_seggerrtt
 	@echo ""
 	@echo ""
+
 
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
@@ -175,6 +195,12 @@
 	@echo ""
 	@echo ""
 	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=cli_tester_nrf52840dongle_seggerrtt
+	@echo ""
+	@echo ""
+	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+	@echo ""
+	@echo ""
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=cli_tester_ardnano33ble_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
