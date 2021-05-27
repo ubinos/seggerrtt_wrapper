@@ -14,6 +14,7 @@
 
 #if (SEGGERRTT__DTTY_ENABLE == 1)
 
+#include <ubinos/bsp/arch.h>
 #include <ubinos/bsp_ubik.h>
 
 #define SLEEP_TIMEMS	1
@@ -176,6 +177,11 @@ int dtty_kbhit(void) {
     } else {
         return 0;
     }
+}
+
+int dtty_flush(void)
+{
+    return 0;
 }
 
 #endif /* (SEGGERRTT__DTTY_ENABLE == 1) */
