@@ -1,4 +1,5 @@
 set(INCLUDE__SEGGERRTT TRUE)
+set(PROJECT_UBINOS_LIBRARIES ${PROJECT_UBINOS_LIBRARIES} seggerrtt_wrapper)
 
 set_cache_default(SEGGERRTT__BASE_DIR "${PROJECT_LIBRARY_DIR}/seggerrtt" STRING "seggerrtt project base dir")
 
