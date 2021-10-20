@@ -6,11 +6,13 @@
 
 # ubinos_config_info {"name_base": "seggerrtt_printftest", "build_type": "cmake_ubinos", "app": true}
 
-set(INCLUDE__APP TRUE)
-set(APP__NAME "seggerrtt_printftest")
-
 include(${PROJECT_UBINOS_DIR}/config/ubinos_nrf52840dk_baremetal.cmake)
 include(${PROJECT_LIBRARY_DIR}/seggerrtt_wrapper/config/seggerrtt.cmake)
+
+####
+
+set(INCLUDE__APP TRUE)
+set(APP__NAME "seggerrtt_printftest")
 
 get_filename_component(_tmp_source_dir "${SEGGERRTT__BASE_DIR}/Examples" ABSOLUTE)
 

@@ -68,37 +68,37 @@
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_nrf52dk_baremetal_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hi_world_nrf52dk_baremetal_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_nrf52840dk_baremetal_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hi_world_nrf52840dk_baremetal_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_nrf52840dongle_baremetal_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hi_world_nrf52840dongle_baremetal_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_ardnano33ble_baremetal_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hi_world_ardnano33ble_baremetal_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_stm3221geval_baremetal_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hi_world_stm3221geval_baremetal_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_stm32footpad_baremetal_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hi_world_stm32footpad_baremetal_seggerrtt
 	@echo ""
 	@echo ""
 
@@ -106,37 +106,37 @@
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_nrf52dk_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hello_world_nrf52dk_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_nrf52840dk_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hello_world_nrf52840dk_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_nrf52840dongle_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hello_world_nrf52840dongle_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_ardnano33ble_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hello_world_ardnano33ble_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_stm3221geval_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hello_world_stm3221geval_seggerrtt
 	@echo ""
 	@echo ""
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=helloworld_mt_stm32footpad_seggerrtt
+	make -f makefile.mk $@ CONFIG_DIR=../app CONFIG_NAME=hello_world_stm32footpad_seggerrtt
 	@echo ""
 	@echo ""
 

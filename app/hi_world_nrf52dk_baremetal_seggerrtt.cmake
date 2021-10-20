@@ -4,22 +4,19 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# ubinos_config_info {"name_base": "ubik_tester", "build_type": "cmake_ubinos", "app": true}
-
-set_cache(UBINOS__BSP__USE_DTTY TRUE BOOL)
+# ubinos_config_info {"name_base": "hi_world", "build_type": "cmake_ubinos", "app": true}
 
 set_cache(UBINOS__BSP__DTTY_TYPE "EXTERNAL" STRING)
 set_cache(SEGGERRTT__DTTY_ENABLE TRUE BOOL)
 
-include(${PROJECT_UBINOS_DIR}/config/ubinos_nrf52840dongle.cmake)
-include(${PROJECT_UBINOS_DIR}/config/ubinos/ubik_test.cmake)
+include(${PROJECT_UBINOS_DIR}/config/ubinos_nrf52dk_baremetal.cmake)
 include(${PROJECT_LIBRARY_DIR}/seggerrtt_wrapper/config/seggerrtt.cmake)
 include(${PROJECT_LIBRARY_DIR}/nrf5sdk_extension/config/nrf5sdk_extension.cmake)
 
 ####
 
 set(INCLUDE__APP TRUE)
-set(APP__NAME "ubik_tester")
+set(APP__NAME "hi_world")
 
 get_filename_component(_tmp_source_dir "${CMAKE_CURRENT_LIST_DIR}/${APP__NAME}" ABSOLUTE)
 
