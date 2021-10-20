@@ -4,8 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# {ubinos_config_type: [buildable, cmake, app]}
+# ubinos_config_info {"name_base": "helloworld_mt", "build_type": "cmake_ubinos", "app": true}
 
-include(${PROJECT_LIBRARY_DIR}/seggerrtt_wrapper/app/helloworld_mt_nrf52840dk_seggerrtt.cmake)
-
+include(${CMAKE_CURRENT_LIST_DIR}/helloworld_mt_nrf52840dk_seggerrtt.cmake)
 

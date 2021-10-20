@@ -4,8 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# {ubinos_config_type: [buildable, cmake, app]}
+# ubinos_config_info {"name_base": "ubik_tester", "build_type": "cmake_ubinos", "app": true}
 
-include(${PROJECT_LIBRARY_DIR}/seggerrtt_wrapper/app/ubik_tester_nrf52840dk_seggerrtt.cmake)
-
+include(${CMAKE_CURRENT_LIST_DIR}/ubik_tester_nrf52840dk_seggerrtt.cmake)
 

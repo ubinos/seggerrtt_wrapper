@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# {ubinos_config_type: [buildable, cmake, app]}
+# ubinos_config_info {"name_base": "seggerrtt_menuapp", "build_type": "cmake_ubinos", "app": true}
 
 set(INCLUDE__APP TRUE)
 set(APP__NAME "seggerrtt_menuapp")
@@ -12,6 +12,7 @@ set(APP__NAME "seggerrtt_menuapp")
 include(${PROJECT_UBINOS_DIR}/config/ubinos_nrf52dk_baremetal.cmake)
 include(${PROJECT_LIBRARY_DIR}/seggerrtt_wrapper/config/seggerrtt.cmake)
 
-get_filename_component(_tmp_source_dir "${SEGGERRTT__BASE_DIR}/" ABSOLUTE)
-set(PROJECT_APP_SOURCES ${PROJECT_APP_SOURCES} ${_tmp_source_dir}/Examples/Main_RTT_MenuApp.c)
+get_filename_component(_tmp_source_dir "${SEGGERRTT__BASE_DIR}/Examples" ABSOLUTE)
+
+set(PROJECT_APP_SOURCES ${PROJECT_APP_SOURCES} ${_tmp_source_dir}/Main_RTT_MenuApp.c)
 

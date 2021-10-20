@@ -1,3 +1,9 @@
+#
+# Copyright (c) 2021 Sung Ho Park and CSOS
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
 set(INCLUDE__SEGGERRTT TRUE)
 set(PROJECT_UBINOS_LIBRARIES ${PROJECT_UBINOS_LIBRARIES} seggerrtt_wrapper)
 
@@ -23,5 +29,4 @@ set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -u dtty_geterror")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -u dtty_getc")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -u dtty_putc")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -u dtty_kbhit")
-
 
