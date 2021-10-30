@@ -1,4 +1,4 @@
 CONFIG_DIR ?= ../app
-CONFIG_NAME ?= seggerrtt_inputechoapp_nrf52840dk_baremetal
+CONFIG_NAME ?= hello_world_nrf52840dk_seggerrtt
 
 include makefile.mk
