@@ -151,6 +151,11 @@ int dtty_putc(int ch) {
 	}
 }
 
+int dtty_flush(void)
+{
+    return 0;
+}
+
 int dtty_putn(const char * str, int len) {
     int i = 0;
 
@@ -179,9 +184,8 @@ int dtty_kbhit(void) {
     }
 }
 
-int dtty_flush(void)
+void dtty_write_process(void *arg)
 {
-    return 0;
 }
 
 #endif /* (SEGGERRTT__DTTY_ENABLE == 1) */
